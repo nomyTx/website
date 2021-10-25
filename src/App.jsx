@@ -13,6 +13,7 @@ import about from "./assets/about.svg";
 import Index from "./routes/Index";
 import Chomik from "./routes/Chomik";
 import AboutSite from "./routes/AboutSite";
+import NotFound from "./routes/NotFound"
 
 const routes = [
   {
@@ -33,6 +34,10 @@ const routes = [
     component: AboutSite,
     icon: about,
   },
+  {
+    path: "/*all",
+    component: NotFound,
+  }
 ];
 
 const App = () => {
