@@ -31,7 +31,7 @@ const App = () => {
   const Routes = useRoutes(routes);
   return (
     <Router>
-      <div class="fixed top-0 left-0 w-[100vw] h-[100vh] bg-bg bg-b"> 
+      <div class="flex top-0 left-0 w-[100vw] h-[100vh] bg-bg"> 
         <Sidebar routes={routes}/>
         <Routes />
       </div>
