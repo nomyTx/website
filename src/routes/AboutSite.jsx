@@ -1,3 +1,5 @@
+import globe from "../assets/globe.svg";
+
 export default () => (
   <>
     <div class="flex-col mx-4 mt-6 text-xl">
@@ -16,6 +18,8 @@ export default () => (
         <u>Yellowsink</u>
       </a>
       <p class="mx-3">Motivated me to make the website and helped a lot.</p>
+
+      <img src={globe} />
 
       <a href="https://github.com/Beefers" class="text-3xl mx-2">
         <u>Beef</u>
